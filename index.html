@@ -9,11 +9,89 @@
         <title>Document</title>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class="container mx-auto mx-w-[1440px]">
-       <!-- header section -->
-        <header>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'my-btn': '#ABEF5F',
+                    'title1': '#212121',
+                    'title2': '#494949',
+                    'title3': '#737373',
+                  }
+                }
+              }
+            }
+          </script>
 
+        <script src="https://kit.fontawesome.com/24e9a73f6c.js" crossorigin="anonymous"></script>
+
+        <style>
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .font-manrope{
+                font-family: 'Manrope', 'sans-serif';
+            }
+        </style>
+    </head>
+    <body class="container mx-auto max-w-[1440px] font-manrope">
+       <!-- header section -->
+        <header class="max-w-[1170px] mx-auto">
+            <nav class="my-8">
+                <div class="navbar flex justify-between bg-base-100">
+                    <div class="">
+                      <div class="flex items-center space-x-2">
+                         <div class="w-8 h-8"><img class="h-full" src="assets/arrow.png" alt=""></div>
+                         <div class="font-extrabold text-3xl text-title-1">Rinterio</div>
+                      </div>
+                    </div>
+                    <div class="hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-base">
+                          <li><a class="text-title2 font-extrabold">Home</a></li>
+                          <li><a class="text-title3 font-medium">Services</a></li>
+                          <li><a class="text-title3 font-medium">Portfolio</a></li>
+                          <li><a class="text-title3 font-medium">Blogs</a></li>
+                          <li><a class="text-title3 font-medium">Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="space-x-4">
+                      <div class="h-12 w-12 hidden lg:flex"><img src="assets/search.png" alt=""></div>
+                      <div class="h-12 w-12 hidden lg:flex"><img src="assets/cart.png" alt=""></div>
+                      <div class="btn bg-my-btn font-extrabold text-xl rounded-[2rem] hidden lg:flex">Book Consult
+                        <div>
+                            <img src="assets/arrow-inverse.png" alt="">
+                        </div>
+                      </div>
+                      <div class="lg:hidden">
+                        <svg width="48.015991" height="48.016113" viewBox="0 0 48.016 48.0161" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                    Created with Pixso.
+                            </desc>
+                            <defs>
+                                <clipPath id="clip1_7956">
+                                    <rect id="Frame" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(12.507935 12.507812)" fill="white" fill-opacity="0"/>
+                                </clipPath>
+                            </defs>
+                            <rect id="Frame 6" rx="23.500000" width="47.000000" height="47.000000" transform="translate(0.515991 0.500000) rotate(0.019056)" fill="#FFFFFF" fill-opacity="1.000000"/>
+                            <rect id="Frame" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(12.507935 12.507812)" fill="#FFFFFF" fill-opacity="0"/>
+                            <g clip-path="url(#clip1_7956)">
+                                <path id="Vector" d="M15.75 18.75L32.25 18.75M15.75 24L32.25 24M15.75 29.25L32.25 29.25" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                            </g>
+                            <rect id="Frame 6" rx="23.500000" width="47.000000" height="47.000000" transform="translate(0.515991 0.500000) rotate(0.019056)" stroke="#E9E9E9" stroke-opacity="1.000000" stroke-width="1.000000"/>
+                        </svg>
+                        
+                      </div>
+                    </div>
+                    
+                </div>
+            </nav>
+            <!-- banner section -->
+            <section class="banner">
+
+            </section>
         </header>
 
         <!-- main section -->
@@ -23,7 +101,7 @@
 
         <!-- footer section -->
          <footer>
-            
+
          </footer>
     </body>
 </html>
