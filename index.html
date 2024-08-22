@@ -19,7 +19,9 @@
                     'title1': '#212121',
                     'title2': '#494949',
                     'title3': '#737373',
-                    'mainbg': 'f4f4f4',
+                    'mainbg': '#f4f4f4',
+                    'card-text': '#1C1C1C',
+                    'brand-clr': '#E9E9E9'
                   }
                 }
               }
@@ -119,18 +121,17 @@
         </div>
       </div>
 
-      <main>
+      <main class="px-5 lg:px-0">
         <!-- thoughtful livable places -->
-        <div class="hero max-w-[1170px] mx-auto py-24 px-5 lg:px-0">
+        <div class="hero max-w-[1170px] mx-auto py-24  mb-8">
           <div class="relative hero-content flex-col lg:flex-row gap-9 p-0">
             <div class="absolute -top-14 -left-14 hidden lg:flex">
               <img src="assets/Vector.png" alt="">
             </div>
 
-  
             
             <div class="lg:text-start text-center">
-              <button class="btn bg-white rounded-3xl text-bold mb-4">
+              <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
                 <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <desc>
                     Created with Pixso.
@@ -197,7 +198,121 @@
 
           </div>
         </div>
+
+        <!-- work process section -->
+        <div class="hero">
+          <div class="hero-content text-center flex-col p-0">
+            <div class="">
+              <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
+                <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <desc>
+                    Created with Pixso.
+                  </desc>
+                  <defs/>
+                  <path id="Vector" d="M16.3 8.48L0.75 8.48" stroke="#494949" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                  <path id="Vector" d="M12.67 3.62C12.67 3.62 16.99 7.27 16.99 8.48C16.99 9.69 12.67 13.34 12.67 13.34" stroke="#494949" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                </svg>
+                
+                How we work
+              </button>
+              <h1 class="text-2xl font-bold leading-8 text-title1 lg:text-[2.5rem]">Our Works Process</h1>
+              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[570px] text-base">
+                The barn house captivates with its blend of rustic charm and modern sophistication,
+                 featuring weathered wood, sleek metal accents.
+              </p>
+            </div>
+
+            <!-- cards for our work -->
+            <div class="flex flex-col lg:flex-row gap-4">
+
+              <div class="card bg-[#E7C1D3] shadow-xl lg:max-w-[274px]">
+                <div class="card-body p-6 text-start">
+                  <div class="w-12 h-12">
+  
+                    <img src="assets/concept.png" alt="">
+                  </div>
+                  <h2 class="card-title text-xl font-extrabold text-card-text">Concept</h2>
+                  <p class="text-title2 leading-7 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+
+              <div class="card bg-[#EFDA6E] shadow-xl lg:max-w-[274px]">
+                <div class="card-body p-6 text-start">
+                  <div class="w-12 h-12">
+  
+                    <img src="assets/flow-chart.png" alt="">
+                  </div>
+                  <h2 class="card-title text-xl font-extrabold text-card-text">Design Process</h2>
+                  <p class="text-title2 leading-7 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+
+            <div class="card bg-[#A4DAC3] shadow-xl lg:max-w-[274px]">
+                <div class="card-body p-6 text-start">
+                  <div class="w-12 h-12">
+  
+                    <img src="assets/vision.png" alt="">
+                  </div>
+                  <h2 class="card-title text-xl font-extrabold text-card-text">Supervision</h2>
+                  <p class="text-title2 leading-7 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+
+              <div class="card bg-[#77AAEA] shadow-xl lg:max-w-[274px]">
+                <div class="card-body p-6 text-start">
+                  <div class="w-12 h-12">
+  
+                    <img src="assets/budget-planning.png" alt="">
+                  </div>
+                  <h2 class="card-title text-xl font-extrabold text-card-text">Budget Planning</h2>
+                  <p class="text-title2 leading-7 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+
+            </div>
+
+            
+
+          </div>
+
+
+          
+        </div>
       </main>
+
+      <footer class="footer footer-center bg-card-text text-base text-brand-clr px-8 py-[72px] gap-8 lg:gap-12 lg:py-[100px] mt-2">
+ 
+        <aside class="gap-4">
+          <div class="flex items-center space-x-2">
+            <div class="w-8 h-8"><img class="h-full" src="assets/arrow.png" alt=""></div>
+            <div class="font-extrabold text-3xl text-title-1">Rinterio</div>
+          </div>
+  
+          <p class="font-medium text-title3 leading-7 lg:max-w-[678px]">
+            The barn house captivates with its blend of rustic charm and modern sophistication,
+              featuring weathered wood, sleek metal accents.
+          </p>
+        </aside>
+
+        
+        <nav class="text-brand-clr flex flex-col gap-8 lg:flex-row lg:gap-[120px]">
+          <a class="link link-hover font-medium">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+
+        <div class="items-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 gap-2 flex text-card-text">
+          <div>
+            Book Consult
+          </div>
+          <div>
+              <img src="assets/arrow-inverse.png" alt="">
+          </div>
+        </div>
+      
+      </footer>
 
 
 
