@@ -36,7 +36,9 @@
                 height: 100%;
             }
             .font-manrope{
-                font-family: 'Manrope', 'sans-serif';
+              font-family: "Manrope", sans-serif;
+              font-optical-sizing: auto;
+              font-style: normal;
             }
         </style>
     </head>
@@ -55,17 +57,17 @@
                     </div>
                     <div class="hidden lg:flex">
                       <ul class="menu menu-horizontal px-1 text-base">
-                          <li><a class="text-title2 font-extrabold">Home</a></li>
-                          <li><a class="text-title3 font-medium">Services</a></li>
-                          <li><a class="text-title3 font-medium">Portfolio</a></li>
-                          <li><a class="text-title3 font-medium">Blogs</a></li>
-                          <li><a class="text-title3 font-medium">Contact Us</a></li>
+                          <li><a class="text-title2 cursor-pointer font-extrabold">Home</a></li>
+                          <li><a class="text-title3 cursor-pointer font-medium">Services</a></li>
+                          <li><a class="text-title3 cursor-pointer font-medium">Portfolio</a></li>
+                          <li><a class="text-title3 cursor-pointer font-medium">Blogs</a></li>
+                          <li><a class="text-title3 cursor-pointer font-medium">Contact Us</a></li>
                       </ul>
                     </div>
                     <div class="space-x-4 h-full">
-                      <div class="h-12 w-12 hidden lg:flex"><img src="assets/search.png" alt=""></div>
-                      <div class="h-12 w-12 hidden lg:flex"><img src="assets/cart.png" alt=""></div>
-                      <div class="items-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 hidden lg:flex gap-2">
+                      <div class="h-12 w-12 hidden cursor-pointer lg:flex"><img src="assets/search.png" alt=""></div>
+                      <div class="h-12 w-12 hidden cursor-pointer lg:flex"><img src="assets/cart.png" alt=""></div>
+                      <div class="items-center cursor-pointer h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 hidden lg:flex gap-2">
                         <div>
                           Book Consult
                         </div>
@@ -73,7 +75,7 @@
                             <img src="assets/arrow-inverse.png" alt="">
                         </div>
                       </div>
-                      <div class="lg:hidden">
+                      <div class="lg:hidden cursor-pointer">
                         <svg width="48.015991" height="48.016113" viewBox="0 0 48.016 48.0161" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <desc>
                                     Created with Pixso.
@@ -106,12 +108,12 @@
             class="max-w-sm rounded-lg" />
           <div class="text-center">
             <h1 class="lg:text-[4rem] font-extrabold text-title1 py-6 text-3xl lg:leading-[87px]">A barn house of this design has a striking appearance</h1>
-            <p class="text-title2 max-w-4xl mx-auto pb-8">
+            <p class="text-title2 max-w-4xl mx-auto pb-8 text-sm lg:text-base font-medium">
               The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents,
                and large windows that flood the space with natural light.
             </p>
             <button class="items-center justify-center w-full lg:w-auto h-full bg-my-btn/50 rounded-[2rem] px-6 py-3 mx-auto flex gap-2">
-              <div class="text-xl font-bold">
+              <div class="text-xl font-bold text-title1">
                 View Details 
               </div>
               <div>
@@ -124,15 +126,15 @@
 
       <main class="px-5 lg:px-0">
         <!-- thoughtful livable places -->
-        <div class="hero max-w-[1170px] mx-auto lg:py-24 py-12 mb-8">
-          <div class="relative hero-content flex-col lg:flex-row gap-9 p-0">
+        <div class="max-w-[1170px] mx-auto lg:py-24 py-12">
+          <div class="relative flex flex-col lg:flex-row gap-9 p-0">
             <div class="absolute -top-14 -left-14 hidden lg:flex">
               <img src="assets/Vector.png" alt="">
             </div>
 
             
             <div class="lg:text-start text-center">
-              <button class="flex mx-auto lg:mx-0 items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
+              <button class="flex mx-auto lg:mx-0 cursor-default items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
                 <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <desc>
                     Created with Pixso.
@@ -146,7 +148,7 @@
               </button>
           
 
-              <h1 class="lg:text-[2.5rem] lg:leading-[3.44rem] text-2xl font-extrabold text-title1">
+              <h1 class="lg:text-[2.5rem] lg:leading-[3.44rem] text-2xl font-bold text-title1">
                 We design thoughtful, liveable spaces
               </h1>
                 
@@ -162,7 +164,7 @@
                       src="assets/commercial.png"
                       class="rounded-lg lg:w-16 lg:h-16 w-10 h-10">
                     <div>
-                      <h1 class="text-xl font-bold text-title2">Commercial</h1>
+                      <h1 class="text-xl font-extrabold text-title2">Commercial</h1>
                       <p class="py-3 text-title3  max-w-[308px] leading-6">
                         Innovative and efficient commercial spaces to enhance your business.
                       </p>
@@ -177,7 +179,7 @@
                       src="assets/residential.png"
                       class="rounded-lg lg:w-16 lg:h-16 w-10 h-10">
                     <div>
-                      <h1 class="text-xl font-bold text-title2">Residential</h1>
+                      <h1 class="text-xl font-extrabold text-title2">Residential</h1>
                       <p class="py-3 text-title3  max-w-[308px] leading-6">
                         Comfortable and stylish residential designs tailored to your needs.
                       </p>
@@ -192,12 +194,14 @@
             </div>
 
 
-            <div class="w-full lg:w-auto flex-shrink-0 flex items-stretch leading-0">
+            
+            <div class="lg:w-[573px] flex flex-shrink-0">
 
               <img
                 src="assets/Rectangle.png"
-                class="rounded-2xl lg:max-w-[573px] lg:h-full h-[223px] object-cover" />
+                class="rounded-2xl lg:h-full h-[223px] object-cover" />
             </div>
+          
 
           </div>
         </div>
@@ -207,7 +211,7 @@
 
           <div class="hero-content text-center flex-col p-0">
             <div class="">
-              <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
+              <button class="flex mx-auto cursor-default items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
                 <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <desc>
                     Created with Pixso.
@@ -220,27 +224,27 @@
                 How we work
               </button>
               <h1 class="text-2xl font-bold leading-8 text-title1 lg:text-[2.5rem]">Our Works Process</h1>
-              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-base">
+              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-sm lg:text-base">
                 Our process is built on a foundation of creativity and precision. From the initial concept to the final touches, we meticulously manage each step to deliver projects that exceed expectations and reflect your unique vision.
               </p>
             </div>
 
             <!-- cards for our work -->
-            <div class="flex flex-col lg:flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4 lg:gap-6">
 
               <div class="card bg-[#E7C1D3] shadow-lg lg:max-w-[274px]">
-                <div class="card-body p-6 text-start">
+                <div class="card-body gap-3  p-6 text-start">
                   <div class="w-12 h-12">
   
                     <img src="assets/concept.png" alt="">
                   </div>
-                  <h2 class="card-title text-lg font-extrabold text-card-text">Concept</h2>
+                  <h2 class="card-title text-xl font-extrabold text-card-text">Concept</h2>
                   <p class="text-title2 leading-7 font-medium">Define your vision with our collaborative brainstorming sessions.</p>
                 </div>
               </div>
 
               <div class="card bg-[#EFDA6E] shadow-lg lg:max-w-[274px]">
-                <div class="card-body p-6 text-start">
+                <div class="card-body gap-3 p-6 text-start">
                   <div class="w-12 h-12">
   
                     <img src="assets/flow-chart.png" alt="">
@@ -251,7 +255,7 @@
               </div>
 
             <div class="card bg-[#A4DAC3] shadow-lg lg:max-w-[274px]">
-                <div class="card-body p-6 text-start">
+                <div class="card-body gap-3 p-6 text-start">
                   <div class="w-12 h-12">
   
                     <img src="assets/vision.png" alt="">
@@ -262,7 +266,7 @@
               </div>
 
               <div class="card bg-[#77AAEA] shadow-lg lg:max-w-[274px]">
-                <div class="card-body p-6 text-start">
+                <div class="card-body gap-3 p-6 text-start">
                   <div class="w-12 h-12">
   
                     <img src="assets/budget-planning.png" alt="">
@@ -281,11 +285,11 @@
         </div>
 
         <!-- latest portfolio -->
-        <div class="lg:bg-white lg:py-24 py-20">
+        <div class="lg:bg-white lg:py-24 py-16">
 
           <div class="text-center flex-col p-0">
             <div class="flex flex-col items-center">
-              <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-my-btn/20 rounded-3xl font-bold mb-4 text-title2">
+              <button class="flex mx-auto cursor-default items-center py-2 px-4 gap-2 min-h-10 bg-my-btn/20 rounded-3xl font-bold mb-4 text-title2">
                 <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <desc>
                     Created with Pixso.
@@ -298,18 +302,18 @@
                 Explore our Latest works
               </button>
               <h1 class="text-2xl font-bold leading-8 text-title1 lg:text-[2.5rem] text-title1">Our Latest Portfolio</h1>
-              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-base">
+              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-sm lg:text-base">
                 Explore our latest projects to see how we transform ideas into remarkable spaces. Our portfolio showcases a diverse range of designs that blend innovation with elegance, highlighting our commitment to quality and creativity.
               </p>
             </div>
 
           
 
-            <!-- portfolio section -->
-            <div class="grid lg:grid-rows-2 gap-4">
+            <!-- portfolio cards -->
+            <div class="grid lg:grid-rows-[230px_230px_230px] xl:grid-rows-[230px_230px] gap-4">
 
               <!-- row1 -->
-              <div class="grid lg:grid-cols-[772px_374px] lg:gap-6 gap-4 mx-auto">
+              <div class="grid xl:grid-cols-[772px_374px] lg:grid-cols-[2fr_0.8fr] lg:gap-6 gap-4 mx-auto">
 
                 
                 <div class="bg-white rounded-2xl">
@@ -324,11 +328,11 @@
                       <div class="text-start">
                         
                         <h1 class="lg:text-2xl text-xl font-extrabold text-title2">Residential</h1>
-                        <p class="text-base text-title3 mt-4 mb-5">
+                        <p class="text-base text-title3 mt-4 mb-5 font-medium">
                           Transformed a standard home with modern design elements, enhancing comfort and style throughout.
                         </p>
                         <button class="w-full lg:w-auto h-full rounded-[2rem] gap-2 flex items-center">
-                          <div class="lg:text-xl text-base font-extrabold">
+                          <div class="lg:text-xl text-base font-extrabold text-title1">
                             View Details 
                           </div>
                           <div>
@@ -343,8 +347,8 @@
                 </div>
 
 
-                <div class="lg:p-6 p-5 border-[0.06rem] border-brand-clr bg-white rounded-2xl h-full">
-                  <img class="w-full lg:h-auto h-[197px]" src="assets/img2.png" alt="">
+                <div class="lg:p-6 p-5 border-[0.06rem] border-brand-clr bg-white rounded-2xl">
+                  <img class="w-full lg:h-full h-[197px]" src="assets/img2.png" alt="">
                 </div>
 
 
@@ -352,7 +356,7 @@
 
 
               <!-- row2 -->
-              <div class="lg:grid lg:grid-cols-[274px_573px_274px] flex flex-col-reverse lg:gap-6 gap-4 mx-auto">
+              <div class="lg:grid xl:grid-rows-[230px] lg:grid-rows-[230px_230px] xl:grid-cols-[274px_573px_274px] lg:grid-cols-[0.6fr_2fr] flex flex-col-reverse lg:gap-6 gap-4 mx-auto">
 
 
                 <div class="lg:p-6 p-5 border-[0.06rem] border-brand-clr bg-white rounded-2xl lg:hidden max-h-[237px]">
@@ -377,11 +381,11 @@
                       <div class="text-start">
                         
                         <h1 class="lg:text-2xl text-xl font-extrabold text-title2">Commercial</h1>
-                        <p class="text-base text-title3 mt-4 mb-5">
+                        <p class="text-base text-title3 mt-4 mb-5 font-medium text-ellipsis">
                           Revitalized a commercial venue with stylish upgrades to elevate its aesthetic and functionality.
                         </p>
                         <button class="w-full lg:w-auto h-full rounded-[2rem] gap-2 flex items-center">
-                          <div class="lg:text-xl text-base font-extrabold">
+                          <div class="lg:text-xl text-base font-extrabold text-title1">
                             View Details 
                           </div>
                           <div>
@@ -397,7 +401,7 @@
 
 
 
-                <div class="lg:p-6 p-5 border-[0.06rem] border-brand-clr bg-white rounded-2xl max-h-[237px]">
+                <div class="lg:p-6 p-5 border-[0.06rem] border-brand-clr bg-white rounded-2xl max-h-[237px] h-auto">
                   <img class="w-full h-full" src="assets/img5.png" alt="">
                 </div>
 
@@ -420,7 +424,7 @@
       <div class="max-w-[1170px] mx-auto flex flex-col items-center lg:py-14 mb-20 px-5">
 
         <div class="flex flex-col text-center">
-          <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
+          <button class="flex mx-auto cursor-default items-center py-2 px-4 gap-2 min-h-10 bg-white rounded-3xl font-bold mb-4 text-title2">
             <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <desc>
                 Created with Pixso.
@@ -433,7 +437,7 @@
             Our Strength
           </button>
           <h1 class="text-2xl font-bold leading-8 text-title1 lg:text-[2.5rem]">Our Team</h1>
-          <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-base">
+          <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-sm lg:text-base text-title2">
             Meet the professionals behind our success. With years of experience and a commitment to excellence, our team combines expertise and creativity to bring your vision to life.
           </p>
         </div>
@@ -546,7 +550,7 @@
 
           <div class="text-center flex-col p-0">
             <div class="flex flex-col items-center">
-              <button class="flex mx-auto items-center py-2 px-4 gap-2 min-h-10 bg-my-btn/20 rounded-3xl font-bold mb-4 text-title2">
+              <button class="flex mx-auto cursor-default items-center py-2 px-4 gap-2 min-h-10 bg-my-btn/20 rounded-3xl font-bold mb-4 text-title2">
                 <svg width="17.747192" height="16.970703" viewBox="0 0 17.7472 16.9707" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <desc>
                     Created with Pixso.
@@ -559,7 +563,7 @@
                 Let’s Connect
               </button>
               <h1 class="text-2xl font-bold leading-8 text-title1 lg:text-[2.5rem]">Let’s Discuss Next Project</h1>
-              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-base">
+              <p class="pt-6 pb-8 font-medium leading-6 text-title2 lg:max-w-[670px] text-sm lg:text-base text-title2">
                 We’re here to help bring your ideas to life. Reach out to discuss your upcoming venture and see how we can
                  work together to achieve your goals.
               </p>
@@ -584,7 +588,7 @@
 
             </div>
 
-            <div class="items-center justify-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 gap-2 flex text-card-text">
+            <div class="items-center cursor-pointer justify-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 gap-2 flex text-card-text">
               <div>
                 Send Mail
               </div>
@@ -620,14 +624,14 @@
 
         
         <nav class="text-brand-clr flex flex-col gap-8 lg:flex-row lg:gap-[120px]">
-          <a class="link link-hover font-medium">Home</a>
-          <a class="link link-hover">Services</a>
-          <a class="link link-hover">Portfolio</a>
-          <a class="link link-hover">Blogs</a>
-          <a class="link link-hover">Contact Us</a>
+          <a class="link link-hover cursor-pointer font-medium ">Home</a>
+          <a class="link link-hover cursor-pointer">Services</a>
+          <a class="link link-hover cursor-pointer">Portfolio</a>
+          <a class="link link-hover cursor-pointer">Blogs</a>
+          <a class="link link-hover cursor-pointer">Contact Us</a>
         </nav>
 
-        <div class="items-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 gap-2 flex text-card-text">
+        <div class="items-center h-full bg-my-btn font-extrabold text-xl rounded-[2rem] px-5 py-3 gap-2 flex text-card-text cursor-pointer">
           <div>
             Book Consult
           </div>
